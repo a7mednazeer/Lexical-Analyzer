@@ -1,0 +1,59 @@
+	1: reserved word: int
+	1: ID, name= fact
+	1: left paren: (
+	1: reserved word: int
+	1: ID, name= x
+	1: right paren: )
+	2: left bracket: {
+	2: reserved word: if
+	2: left paren: (
+	2: ID, name= x
+	2: greater than: >
+	2: NUM, val= 1
+	2: right paren: )
+	3: reserved word: return
+	3: ID, name= x
+	3: multiply: *
+	3: ID, name= fact
+	3: left paren: (
+	3: ID, name= x
+	3: minus: -
+	3: NUM, val= 1
+	3: right paren: )
+	3: semicolon: ;
+	4: reserved word: else
+	5: reserved word: return
+	5: NUM, val= 1
+	5: semicolon: ;
+	6: right bracket: }
+	7: reserved word: void
+	7: ID, name= main
+	7: left paren: (
+	7: reserved word: void
+	7: right paren: )
+	8: left bracket: {
+	8: reserved word: int
+	8: ID, name= x
+	8: semicolon: ;
+	9: ID, name= x
+	9: equal: =
+	9: reserved word: read
+	9: left paren: (
+	9: right paren: )
+	9: semicolon: ;
+	10: reserved word: if
+	10: left paren: (
+	10: ID, name= x
+	10: greater than: >
+	10: NUM, val= 0
+	10: right paren: )
+	10: reserved word: write
+	10: left paren: (
+	10: ID, name= fact
+	10: left paren: (
+	10: ID, name= x
+	10: right paren: )
+	10: right paren: )
+	10: semicolon: ;
+	11: right bracket: }
+	11: EOF

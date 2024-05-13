@@ -1,0 +1,73 @@
+	1: reserved word: int
+	1: ID, name= gcd
+	1: left paren: (
+	1: reserved word: int
+	1: ID, name= u
+	1: comma: ,
+	1: reserved word: int
+	1: ID, name= v
+	1: right paren: )
+	2: left bracket: {
+	3: reserved word: if
+	3: left paren: (
+	3: ID, name= v
+	3: comparsion: ==
+	3: NUM, val= 0
+	3: right paren: )
+	3: reserved word: return
+	3: ID, name= u
+	3: semicolon: ;
+	4: reserved word: else
+	4: reserved word: return
+	4: ID, name= gcd
+	4: left paren: (
+	4: ID, name= v
+	4: comma: ,
+	4: ID, name= u
+	4: minus: -
+	4: ID, name= u
+	4: devision: /
+	4: ID, name= v
+	4: multiply: *
+	4: ID, name= v
+	4: right paren: )
+	4: semicolon: ;
+	9: right bracket: }
+	10: reserved word: void
+	10: reserved word: main
+	10: left paren: (
+	10: reserved word: void
+	10: right paren: )
+	11: left bracket: {
+	12: ERROR: $
+	12: ID, name= mod
+	13: reserved word: int
+	13: ID, name= x
+	13: semicolon: ;
+	14: reserved word: int
+	14: ID, name= y
+	14: semicolon: ;
+	15: ID, name= x
+	15: equal: =
+	15: ID, name= input
+	15: left paren: (
+	15: right paren: )
+	15: semicolon: ;
+	16: ID, name= y
+	16: equal: =
+	16: ID, name= input
+	16: left paren: (
+	16: right paren: )
+	16: semicolon: ;
+	17: ID, name= output
+	17: left paren: (
+	17: ID, name= gcd
+	17: left paren: (
+	17: ID, name= x
+	17: comma: ,
+	17: ID, name= y
+	17: right paren: )
+	17: right paren: )
+	17: semicolon: ;
+	18: right bracket: }
+	18: EOF
